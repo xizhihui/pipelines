@@ -1,0 +1,17 @@
+$schema: "http://json-schema.org/draft-06/schema#"
+
+description: row of the samples.tsv, representing the group which it belongs to
+
+type: object
+
+properties:
+  sample:
+    type: string
+    description: sample name/id
+  group:
+    type: string
+    description: the group that sample belongs to
+
+required:
+  - sample
+  - group

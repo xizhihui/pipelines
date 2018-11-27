@@ -1,0 +1,51 @@
+# sample raw data and group file
+samples: samples.tsv
+units: units.tsv
+mocks: mocks.tsv
+
+# threads
+processors: 8
+
+# email address
+email: None
+
+# reference
+ref:
+  # ref vesion
+  name: mm10
+  # path/to/genome.fasta
+  genome: rawdata/reference/mm10.fa
+  # path/to/genome.gtf
+  gtf: rawdata/reference/mm10.gtf
+  # path/to/genome.bed
+  bed: rawdata/reference/mm10.bed
+  # path/to/store_index
+  index_path: rawdata/reference
+  # path/to/index_prefix
+  index: rawdata/reference/mm10
+
+
+# trimmomatic
+trimmomatic_pe:
+    - "TRAILING:5"
+    - "LEADING:4"
+    - "SLIDINGWINDOW:4:5"
+    - "MINLEN:36"
+    - "ILLUMINACLIP:TruSeq3-PE.fa:2:30:10"
+
+trimmomatic_se:
+  - "TRAILING:5"
+  - "LEADING:4"
+  - "SLIDINGWINDOW:4:5"
+  - "MINLEN:36"
+  - "ILLUMINACLIP:TruSeq3-SE.fa:2:30:10"
+
+# MAPQ filter
+samtools_view: "-q 10 -b"
+
+# peak calling with MACS2
+MACS2:
+  # not the mm10, just the mm
+  species: mm
+  # peak calling params and shift model params
+  blacklist: rawdata/reference/mm10.blacklist.bed

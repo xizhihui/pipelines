@@ -1,0 +1,11 @@
+name: homer
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/
+  - bioconda
+  - conda-forge
+
+dependencies:
+  - libstdcxx-ng >=4.9
+  - perl >=5.26.2,<5.27.0a0
+  - homer =4.9.1

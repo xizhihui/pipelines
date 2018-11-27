@@ -1,0 +1,11 @@
+name: idr
+channels:
+  - bioconda
+  - conda-forge
+
+dependencies:
+  - matplotlib
+  - numpy
+  - python >=3.6,<3.7.0a0
+  - scipy
+  - idr =2.0.4.2

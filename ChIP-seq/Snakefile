@@ -1,0 +1,17 @@
+##### common #####
+include: "rules/common.smk"
+
+##### output #####
+rule all:
+	input:
+		"output/qc/chipqc/ChIPQC.html",
+		"output/annotation/heatmap_of_peaks_on_TSS.pdf",
+		"output/annotation/read_count_frequency_of_peaks.pdf",
+		expand("output/motif/{sample}/homerResults.html", sample=mocks["sample"].unique())
+
+##### modules #####
+include: "rules/preprocess.smk"
+include: "rules/alignment.smk"
+include: "rules/callpeak.smk"
+include: "rules/downstream.smk"
+include: "rules/report.smk"

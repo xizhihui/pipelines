@@ -1,0 +1,25 @@
+$schema: "http://json-schema.org/draft-06/schema#"
+description: row of the mocks.tsv
+type: object
+properties:
+  sample:
+    type: string
+    description: sample name/id the unit has been sequenced from
+  unit:
+    type: string
+    description: unit id
+  type:
+    type: string
+    description: transcription factors or histone modification
+  mock_sample:
+    type: string
+    description: the input sample in ChIP experiment
+  mock_unit:
+    type: string
+    description: the unit of the input sample in ChIP experiment
+required:
+  - sample
+  - unit
+  - type
+  - mock_sample
+  - mock_unit

@@ -1,0 +1,20 @@
+run_accession	scientific_name	library_layout	run_alias	fastq_ftp	sample_alias	sample_title
+SRR391032	Mus musculus	SINGLE	GSM850467_r1	ftp.sra.ebi.ac.uk/vol1/fastq/SRR391/SRR391032/SRR391032.fastq.gz	GSM850467	RNAPII S5P ChIPSeq
+SRR391033	Mus musculus	SINGLE	GSM850467_r2	ftp.sra.ebi.ac.uk/vol1/fastq/SRR391/SRR391033/SRR391033.fastq.gz	GSM850467	RNAPII S5P ChIPSeq
+SRR391034	Mus musculus	SINGLE	GSM850470_r11	ftp.sra.ebi.ac.uk/vol1/fastq/SRR391/SRR391034/SRR391034.fastq.gz	GSM850470	RNAPII S2P ChIPSeq
+SRR391035	Mus musculus	SINGLE	GSM850468_r2	ftp.sra.ebi.ac.uk/vol1/fastq/SRR391/SRR391035/SRR391035.fastq.gz	GSM850468	RNAPII S7P ChIPSeq
+SRR391036	Mus musculus	SINGLE	GSM850469_r1	ftp.sra.ebi.ac.uk/vol1/fastq/SRR391/SRR391036/SRR391036.fastq.gz	GSM850469	RNAPII 8WG16 ChIPSeq
+SRR391037	Mus musculus	SINGLE	GSM850469_r2	ftp.sra.ebi.ac.uk/vol1/fastq/SRR391/SRR391037/SRR391037.fastq.gz	GSM850469	RNAPII 8WG16 ChIPSeq
+SRR391038	Mus musculus	SINGLE	GSM850470_r1	ftp.sra.ebi.ac.uk/vol1/fastq/SRR391/SRR391038/SRR391038.fastq.gz	GSM850470	RNAPII S2P ChIPSeq
+SRR391039	Mus musculus	SINGLE	GSM850470_r2	ftp.sra.ebi.ac.uk/vol1/fastq/SRR391/SRR391039/SRR391039.fastq.gz	GSM850470	RNAPII S2P ChIPSeq
+SRR391040	Mus musculus	SINGLE	GSM850468_r11	ftp.sra.ebi.ac.uk/vol1/fastq/SRR391/SRR391040/SRR391040.fastq.gz	GSM850468	RNAPII S7P ChIPSeq
+SRR391041	Mus musculus	SINGLE	GSM850471_r1	ftp.sra.ebi.ac.uk/vol1/fastq/SRR391/SRR391041/SRR391041.fastq.gz	GSM850471	H2Aub1 ChIPSeq
+SRR391042	Mus musculus	SINGLE	GSM850471_r2	ftp.sra.ebi.ac.uk/vol1/fastq/SRR391/SRR391042/SRR391042.fastq.gz	GSM850471	H2Aub1 ChIPSeq
+SRR391043	Mus musculus	SINGLE	GSM850472_r1	ftp.sra.ebi.ac.uk/vol1/fastq/SRR391/SRR391043/SRR391043.fastq.gz	GSM850472	H3K36me3 ChIPSeq
+SRR391044	Mus musculus	SINGLE	GSM850472_r2	ftp.sra.ebi.ac.uk/vol1/fastq/SRR391/SRR391044/SRR391044.fastq.gz	GSM850472	H3K36me3 ChIPSeq
+SRR391045	Mus musculus	SINGLE	GSM850473_r1	ftp.sra.ebi.ac.uk/vol1/fastq/SRR391/SRR391045/SRR391045.fastq.gz	GSM850473	Control MockIP
+SRR391046	Mus musculus	SINGLE	GSM850473_r2	ftp.sra.ebi.ac.uk/vol1/fastq/SRR391/SRR391046/SRR391046.fastq.gz	GSM850473	Control MockIP
+SRR391047	Mus musculus	SINGLE	GSM850474_r1	ftp.sra.ebi.ac.uk/vol1/fastq/SRR391/SRR391047/SRR391047.fastq.gz	GSM850474	Ring1B ChIPSeq
+SRR391048	Mus musculus	SINGLE	GSM850474_r2	ftp.sra.ebi.ac.uk/vol1/fastq/SRR391/SRR391048/SRR391048.fastq.gz	GSM850474	Ring1B ChIPSeq
+SRR391049	Mus musculus	SINGLE	GSM850474_r3	ftp.sra.ebi.ac.uk/vol1/fastq/SRR391/SRR391049/SRR391049.fastq.gz	GSM850474	Ring1B ChIPSeq
+SRR391050	Mus musculus	SINGLE	GSM850475_r1	ftp.sra.ebi.ac.uk/vol1/fastq/SRR391/SRR391050/SRR391050.fastq.gz	GSM850475	RNAPII S5P ChIPSeq

@@ -1,0 +1,7 @@
+sample	unit	mock_sample	mock_unit	type
+H2Aub1	rep1	Control_MockIP	rep1	tf
+H2Aub1	rep2	Control_MockIP	rep2	tf
+H3K36me3	rep1	Control_MockIP	rep1	hm
+H3K36me3	rep2	Control_MockIP	rep2	hm
+Ring1B	rep1	Control_MockIP	rep1	tf
+Ring1B	rep2	Control_MockIP	rep2	tf

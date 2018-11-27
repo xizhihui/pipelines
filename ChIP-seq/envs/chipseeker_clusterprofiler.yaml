@@ -1,0 +1,36 @@
+name: ChIPseeker_clusterProfiler
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/
+  - bioconda
+  - conda-forge
+  - default
+
+dependencies:
+  - bioconductor-annotationdbi >=1.42.1,<1.44.0
+  - bioconductor-biocgenerics >=0.26.0,<0.28.0
+  - bioconductor-enrichplot >=1.0.2,<1.2.0
+  - bioconductor-genomeinfodb >=1.16.0,<1.18.0
+  - bioconductor-genomicfeatures >=1.32.2,<1.34.0
+  - bioconductor-genomicranges >=1.32.7,<1.34.0
+  - bioconductor-iranges >=2.14.12,<2.16.0
+  - bioconductor-rtracklayer >=1.40.6,<1.42.0
+  - bioconductor-s4vectors >=0.18.3,<0.20.0
+  - bioconductor-txdb.mmusculus.ucsc.mm10.knowngene =3.4.0
+  - bioconductor-txdb.hsapiens.ucsc.hg38.knowngene
+  - bioconductor-org.mm.eg.db
+  - bioconductor-org.hs.eg.db
+  - bioconductor-chipseeker = 1.16.1
+  - bioconductor-clusterprofiler =3.8.1
+  - bioconductor-chipqc =1.16.1
+  - r-base >=3.5.1,<3.5.2.0a0
+  - r-boot
+  - r-dplyr
+  - r-ggplot2 >=2.2.0
+  - r-gplots
+  - r-gridbase
+  - r-gtools
+  - r-magrittr
+  - r-plotrix
+  - r-rcolorbrewer
+  - r-upsetr

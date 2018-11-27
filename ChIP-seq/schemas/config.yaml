@@ -1,0 +1,61 @@
+$schema: "http://json-schema.org/draft-06/schema#"
+
+description: config file
+
+type: object
+
+properties:
+  samples:
+    type: string
+    description: the sample group file
+
+  units:
+    type: string
+    description: the units file, representing the sequences reads
+
+  email:
+    type: string
+    description: the email address
+
+  processors:
+    type: number
+    description: indicate how many threads used in the pipeline
+
+  ref:
+    type: object
+    description: indicate the infos about references, like genome, gtf, bed
+    properties:
+      name:
+        type: string
+        description: reference genome name
+      genome:
+        type: string
+        description: reference genome file, path to reference file
+      gtf:
+        type: string
+        description: reference gtf file
+      bed:
+        type: string
+        description: reference bed file
+    required:
+      - name
+      - genome
+      - gtf
+      - bed
+
+  MACS2:
+    type: object
+    description: params for MACS2
+    properties:
+      species:
+        type: string
+        description: indicate the species for "-g" in MACS2
+    required:
+      - species
+
+required:
+  - samples
+  - units
+  - processors
+  - ref
+  - MACS2
